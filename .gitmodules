@@ -1,3 +1,6 @@
 [submodule "wp"]
 	path = wp
 	url = https://github.com/WordPress/WordPress/
+[submodule "content/plugins/plugin-analysis"]
+	path = content/plugins/plugin-analysis
+	url = git@github.com:the-events-calendar/plugin-analysis.git
