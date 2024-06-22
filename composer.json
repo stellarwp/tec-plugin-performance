@@ -1,0 +1,80 @@
+{
+    "name": "tec-performance-analysis/website",
+    "license": "GPL-2.0-or-later",
+    "description": "The TEC Performance Analysis Website",
+    "homepage": "https://performance.theeventscalendar.com/",
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "johnpbloch/wordpress-core-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/tribe-common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/the-events-calendar"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/event-tickets-plus"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/event-tickets"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/events-pro"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/the-events-calendar/plugin-analysis"
+        }
+    ],
+    "require": {
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "composer/installers": "*",
+        "johnpbloch/wordpress-core": "~6.4",
+        "johnpbloch/wordpress-core-installer": "~2.0",
+        "the-events-calendar/the-events-calendar": "dev-master",
+        "the-events-calendar/events-pro": "dev-master",
+        "the-events-calendar/event-tickets": "dev-master",
+        "the-events-calendar/event-tickets-plus": "dev-master",
+        "the-events-calendar/plugin-analysis": "dev-main",
+        "the-events-calendar/tribe-common": "dev-master",
+        "stellarwp/coding-standards": "^2.0"
+    },
+    "require-dev": {
+        "kjohnson/since-unreleased": "^1.0"
+    },
+    "extra": {
+        "enable-patching": true,
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "wp-content/mu-plugins/{$name}": [
+                "type:wordpress-muplugin"
+            ],
+            "wp-content/plugins/{$name}": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "scripts": {
+        "pre-autoload-dump": [
+            "cd wp-content/plugins/the-events-calendar && composer i --ignore-platform-reqs --no-dev && git submodule update --init && cd common && composer i --ignore-platform-reqs --no-dev\n",
+            "cd wp-content/plugins/plugin-analysis && composer i --ignore-platform-reqs\n"
+        ]
+    }
+}

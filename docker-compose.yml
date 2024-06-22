@@ -1,0 +1,46 @@
+version: '3.1'
+
+services:
+
+  wordpress_php:
+    build:
+      context: ./docker/php8.1.10
+    #networks:
+      #- proxy # This is to 'proxy' to the EA lando network for event aggregator (defined below and from lando networking)
+    container_name: pperf_wordpress_php
+    restart: always
+    ports:
+      - 8882:80
+    environment:
+      WORDPRESS_DB_HOST: pperf_wordpress_db
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wp
+      XDEBUG_MODE: debug
+      WORDPRESS_DEBUG: 1
+      PHP_IDE_CONFIG: "serverName=pperf-wp"
+      XDEBUG_CONFIG: "remote_enable=1 remote_mode=req remote_host=host.docker.internal remote_port=9003 remote_connect_back=0"
+    volumes:
+      - .:/var/www/html
+
+  wordpress_db:
+    container_name: pperf_wordpress_db
+    build:
+      context: ./docker/mysql
+    ports:
+      - 3391:3306
+    restart: always
+    environment:
+      MYSQL_DATABASE: wp
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_HOST: '%'
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:
+networks:
+  proxy:
+    name: 'tec_network'
