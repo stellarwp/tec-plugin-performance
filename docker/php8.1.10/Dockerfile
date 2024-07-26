@@ -21,6 +21,10 @@ RUN set -eux; \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
+# Install node build tools.
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+RUN nvm install 18.13.0
+
 # install the PHP extensions we need (https://make.wordpress.org/hosting/handbook/handbook/server-environment/#php-extensions)
 RUN set -ex; \
 	\
