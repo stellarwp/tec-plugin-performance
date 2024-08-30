@@ -73,19 +73,19 @@
     },
     "scripts": {
         "pre-autoload-dump": [
-            "cd wp-content/plugins/the-events-calendar && composer i --ignore-platform-reqs --no-dev && git submodule update --init",
-            "cd wp-content/plugins/the-events-calendar/common && composer i --ignore-platform-reqs --no-dev && git submodule update --init\n",
-            "cd wp-content/plugins/the-events-calendar nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/the-events-calendar/common nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/events-pro && composer i --ignore-platform-reqs --no-dev && git submodule update --init\n",
-            "cd wp-content/plugins/events-pro nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/event-tickets && composer i --ignore-platform-reqs --no-dev && git submodule update --init\n",
-            "cd wp-content/plugins/event-tickets/common && composer i --ignore-platform-reqs --no-dev && git submodule update --init\n",
-            "cd wp-content/plugins/event-tickets nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/event-tickets/common nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/event-tickets-plus && composer i --ignore-platform-reqs --no-dev && git submodule update --init",
-            "cd wp-content/plugins/event-tickets-plus nvm use && npm ci && npm run build\n",
-            "cd wp-content/plugins/plugin-analysis && composer i --ignore-platform-reqs\n"
+            "cd wp-content/plugins/the-events-calendar && composer i --no-dev && git submodule update --init",
+            "cd wp-content/plugins/the-events-calendar/common && composer i --no-dev && git submodule update --init\n",
+            "cd wp-content/plugins/the-events-calendar && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/the-events-calendar/common && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/events-pro && composer i --no-dev && git submodule update --init\n",
+            "cd wp-content/plugins/events-pro && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/event-tickets && composer i --no-dev && git submodule update --init\n",
+            "cd wp-content/plugins/event-tickets/common && composer i --no-dev && git submodule update --init\n",
+            "cd wp-content/plugins/event-tickets && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/event-tickets/common && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/event-tickets-plus && composer i --no-dev && git submodule update --init",
+            "cd wp-content/plugins/event-tickets-plus && nvm use && npm ci && npm run build\n",
+            "cd wp-content/plugins/plugin-analysis && composer i\n"
         ]
     }
 }
