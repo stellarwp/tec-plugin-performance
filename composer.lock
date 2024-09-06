@@ -420,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "b1bde20a5af4a306e672df84be01d1ca7c548f5d"
+                "reference": "6dc0af1bf46dbc80101b51cf020c8d09d2a852c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b1bde20a5af4a306e672df84be01d1ca7c548f5d",
-                "reference": "b1bde20a5af4a306e672df84be01d1ca7c548f5d",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6dc0af1bf46dbc80101b51cf020c8d09d2a852c1",
+                "reference": "6dc0af1bf46dbc80101b51cf020c8d09d2a852c1",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-08-20T14:26:56+00:00"
+            "time": "2024-09-04T18:40:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1142,12 +1142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "41a426cac70d410183189bc31c63f474f6f53548"
+                "reference": "f9052410eb9898a3f1780278bb080dfb930b7fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/41a426cac70d410183189bc31c63f474f6f53548",
-                "reference": "41a426cac70d410183189bc31c63f474f6f53548",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/f9052410eb9898a3f1780278bb080dfb930b7fe9",
+                "reference": "f9052410eb9898a3f1780278bb080dfb930b7fe9",
                 "shasum": ""
             },
             "require": {
@@ -1215,7 +1215,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-08-17T17:43:40+00:00"
+            "time": "2024-09-02T13:22:27+00:00"
         },
         {
             "name": "stellarwp/assets",
@@ -2008,12 +2008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/plugin-analysis.git",
-                "reference": "c66974c931ec19f5360a84d66e4c589fe3b10f91"
+                "reference": "57d18feddc2bcde909e855aa99bddfebc4777516"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/c66974c931ec19f5360a84d66e4c589fe3b10f91",
-                "reference": "c66974c931ec19f5360a84d66e4c589fe3b10f91",
+                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/57d18feddc2bcde909e855aa99bddfebc4777516",
+                "reference": "57d18feddc2bcde909e855aa99bddfebc4777516",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2119,7 @@
                 "source": "https://github.com/the-events-calendar/plugin-analysis/tree/main",
                 "issues": "https://github.com/the-events-calendar/plugin-analysis/issues"
             },
-            "time": "2024-05-17T22:08:50+00:00"
+            "time": "2024-09-06T14:18:00+00:00"
         },
         {
             "name": "the-events-calendar/the-events-calendar",
