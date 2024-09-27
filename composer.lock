@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "fad14ce68dd95e341b7768a311320a2c956ca42e"
+                "reference": "a24c987073cb81d1116308fe1a5970b2908cb36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/fad14ce68dd95e341b7768a311320a2c956ca42e",
-                "reference": "fad14ce68dd95e341b7768a311320a2c956ca42e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a24c987073cb81d1116308fe1a5970b2908cb36f",
+                "reference": "a24c987073cb81d1116308fe1a5970b2908cb36f",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-23T14:47:58+00:00"
+            "time": "2024-09-16T08:49:27+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -420,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "6dc0af1bf46dbc80101b51cf020c8d09d2a852c1"
+                "reference": "ed1b613761d1b8ac6020b99ffc1a67e6ef6c95e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6dc0af1bf46dbc80101b51cf020c8d09d2a852c1",
-                "reference": "6dc0af1bf46dbc80101b51cf020c8d09d2a852c1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/ed1b613761d1b8ac6020b99ffc1a67e6ef6c95e3",
+                "reference": "ed1b613761d1b8ac6020b99ffc1a67e6ef6c95e3",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-09-04T18:40:48+00:00"
+            "time": "2024-09-10T16:31:37+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -649,12 +649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "64f3265002e9e181436942aac2fbd482e186dc55"
+                "reference": "bf95de2af7feb426f91eee6c66d6ad8661c38e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/64f3265002e9e181436942aac2fbd482e186dc55",
-                "reference": "64f3265002e9e181436942aac2fbd482e186dc55",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/bf95de2af7feb426f91eee6c66d6ad8661c38e29",
+                "reference": "bf95de2af7feb426f91eee6c66d6ad8661c38e29",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
                 "issues": "https://github.com/paragonie/random_compat/issues",
                 "source": "https://github.com/paragonie/random_compat"
             },
-            "time": "2022-06-19T18:08:39+00:00"
+            "time": "2024-09-10T09:24:43+00:00"
         },
         {
             "name": "phpcsstandards/phpcsextra",
@@ -783,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "cc4244b4e6ab34f3e8db83e3987dcb65138450ff"
+                "reference": "5ce89dad42ec5bf0a45fd244b05421c4f5c36299"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/cc4244b4e6ab34f3e8db83e3987dcb65138450ff",
-                "reference": "cc4244b4e6ab34f3e8db83e3987dcb65138450ff",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/5ce89dad42ec5bf0a45fd244b05421c4f5c36299",
+                "reference": "5ce89dad42ec5bf0a45fd244b05421c4f5c36299",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +801,7 @@
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.3.2",
                 "phpcsstandards/phpcsdevcs": "^1.1.6",
-                "yoast/phpunit-polyfills": "^1.1.0 || ^2.0.0"
+                "yoast/phpunit-polyfills": "^1.1.0 || ^2.0.0 || ^3.0.0"
             },
             "default-branch": true,
             "type": "phpcodesniffer-standard",
@@ -864,20 +864,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-08-23T23:59:03+00:00"
+            "time": "2024-09-20T09:50:45+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.30.0",
+            "version": "1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f"
+                "reference": "6ca22b154efdd9e3c68c56f5d94670920a1c19a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/5ceb0e384997db59f38774bf79c2a6134252c08f",
-                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6ca22b154efdd9e3c68c56f5d94670920a1c19a4",
+                "reference": "6ca22b154efdd9e3c68c56f5d94670920a1c19a4",
                 "shasum": ""
             },
             "require": {
@@ -909,9 +909,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.30.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.32.0"
             },
-            "time": "2024-08-29T09:54:52+00:00"
+            "time": "2024-09-26T07:23:32+00:00"
         },
         {
             "name": "psr/container",
@@ -1017,12 +1017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "f865e7bd54368c578ac6fab4e93f92ade822cdf1"
+                "reference": "40d48007b37c65f3f79b097930f83f139d85355f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/f865e7bd54368c578ac6fab4e93f92ade822cdf1",
-                "reference": "f865e7bd54368c578ac6fab4e93f92ade822cdf1",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/40d48007b37c65f3f79b097930f83f139d85355f",
+                "reference": "40d48007b37c65f3f79b097930f83f139d85355f",
                 "shasum": ""
             },
             "require": {
@@ -1033,9 +1033,9 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || ^1.0",
                 "phpcsstandards/phpcsdevcs": "^1.1",
                 "phpstan/phpstan": "^1.7",
-                "phpunit/phpunit": "^4.8.36 || ^5.7.21 || ^6.5 || ^7.0 || ^8.0 || ^9.0",
+                "phpunit/phpunit": "^4.8.36 || ^5.7.21 || ^6.5 || ^7.0 || ^8.0 || ^9.0 || ^10.5.32 || ^11.3.3",
                 "sirbrillig/phpcs-import-detection": "^1.1",
-                "vimeo/psalm": "^0.2 || ^0.3 || ^1.1 || ^4.24 || ^5.0@beta"
+                "vimeo/psalm": "^0.2 || ^0.3 || ^1.1 || ^4.24 || ^5.0"
             },
             "default-branch": true,
             "type": "phpcodesniffer-standard",
@@ -1068,7 +1068,7 @@
                 "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
                 "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
             },
-            "time": "2024-08-26T21:16:11+00:00"
+            "time": "2024-09-10T14:15:21+00:00"
         },
         {
             "name": "slevomat/coding-standard",
@@ -1142,12 +1142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "f9052410eb9898a3f1780278bb080dfb930b7fe9"
+                "reference": "92c8ef54357ea09d93f8efa043d7c9c0a71ae094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/f9052410eb9898a3f1780278bb080dfb930b7fe9",
-                "reference": "f9052410eb9898a3f1780278bb080dfb930b7fe9",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/92c8ef54357ea09d93f8efa043d7c9c0a71ae094",
+                "reference": "92c8ef54357ea09d93f8efa043d7c9c0a71ae094",
                 "shasum": ""
             },
             "require": {
@@ -1215,20 +1215,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-09-02T13:22:27+00:00"
+            "time": "2024-09-18T16:46:38+00:00"
         },
         {
             "name": "stellarwp/assets",
-            "version": "1.2.9",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stellarwp/assets.git",
-                "reference": "1cd83c9799ff1e5c4b7f3c7d301f3b8b8b2d6ee4"
+                "reference": "51276936d3fa31e8e69aeb9090c6eac2f66dbce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stellarwp/assets/zipball/1cd83c9799ff1e5c4b7f3c7d301f3b8b8b2d6ee4",
-                "reference": "1cd83c9799ff1e5c4b7f3c7d301f3b8b8b2d6ee4",
+                "url": "https://api.github.com/repos/stellarwp/assets/zipball/51276936d3fa31e8e69aeb9090c6eac2f66dbce1",
+                "reference": "51276936d3fa31e8e69aeb9090c6eac2f66dbce1",
                 "shasum": ""
             },
             "require-dev": {
@@ -1269,9 +1269,9 @@
             "description": "A library for managing asset registration and enqueuing in WordPress.",
             "support": {
                 "issues": "https://github.com/stellarwp/assets/issues",
-                "source": "https://github.com/stellarwp/assets/tree/1.2.9"
+                "source": "https://github.com/stellarwp/assets/tree/1.3.0"
             },
-            "time": "2024-08-08T20:46:30+00:00"
+            "time": "2024-09-27T13:13:39+00:00"
         },
         {
             "name": "stellarwp/coding-standards",
@@ -1489,12 +1489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stellarwp/models.git",
-                "reference": "7c21d232c06a6670e5845570945791f2887ead48"
+                "reference": "ac30397971ac654278ebe2cf703524db81459630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stellarwp/models/zipball/7c21d232c06a6670e5845570945791f2887ead48",
-                "reference": "7c21d232c06a6670e5845570945791f2887ead48",
+                "url": "https://api.github.com/repos/stellarwp/models/zipball/ac30397971ac654278ebe2cf703524db81459630",
+                "reference": "ac30397971ac654278ebe2cf703524db81459630",
                 "shasum": ""
             },
             "require": {
@@ -1536,9 +1536,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stellarwp/models/issues",
-                "source": "https://github.com/stellarwp/models/tree/main"
+                "source": "https://github.com/stellarwp/models/tree/1.2.2"
             },
-            "time": "2024-05-10T21:20:20+00:00"
+            "time": "2024-09-26T18:03:55+00:00"
         },
         {
             "name": "stellarwp/schema",
@@ -1726,12 +1726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/event-tickets.git",
-                "reference": "54b05bd623d88688b9ed8c086d3406c46a5cb22b"
+                "reference": "c4fc57087e207a426108e64724e5034ad1f0e04f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/event-tickets/zipball/54b05bd623d88688b9ed8c086d3406c46a5cb22b",
-                "reference": "54b05bd623d88688b9ed8c086d3406c46a5cb22b",
+                "url": "https://api.github.com/repos/the-events-calendar/event-tickets/zipball/c4fc57087e207a426108e64724e5034ad1f0e04f",
+                "reference": "c4fc57087e207a426108e64724e5034ad1f0e04f",
                 "shasum": ""
             },
             "require-dev": {
@@ -1807,9 +1807,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/event-tickets/tree/5.13.2"
+                "source": "https://github.com/the-events-calendar/event-tickets/tree/5.13.4"
             },
-            "time": "2024-08-22T20:55:44+00:00"
+            "time": "2024-09-26T17:16:39+00:00"
         },
         {
             "name": "the-events-calendar/event-tickets-plus",
@@ -1817,12 +1817,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:the-events-calendar/event-tickets-plus.git",
-                "reference": "b55068f4db2aa86e0c1b11a7ce6cc67dd6b7f4b3"
+                "reference": "94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/event-tickets-plus/zipball/b55068f4db2aa86e0c1b11a7ce6cc67dd6b7f4b3",
-                "reference": "b55068f4db2aa86e0c1b11a7ce6cc67dd6b7f4b3",
+                "url": "https://api.github.com/repos/the-events-calendar/event-tickets-plus/zipball/94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa",
+                "reference": "94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa",
                 "shasum": ""
             },
             "require": {
@@ -1899,9 +1899,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/event-tickets-plus/tree/6.0.2"
+                "source": "https://github.com/the-events-calendar/event-tickets-plus/tree/6.0.4"
             },
-            "time": "2024-08-21T20:51:38+00:00"
+            "time": "2024-09-26T17:18:24+00:00"
         },
         {
             "name": "the-events-calendar/events-pro",
@@ -1909,12 +1909,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:the-events-calendar/events-pro.git",
-                "reference": "238641ab7f43c2ee5ebe33436da30ff81171536b"
+                "reference": "fad8913b62ad25165f18ec0a82672a71364bec8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/events-pro/zipball/238641ab7f43c2ee5ebe33436da30ff81171536b",
-                "reference": "238641ab7f43c2ee5ebe33436da30ff81171536b",
+                "url": "https://api.github.com/repos/the-events-calendar/events-pro/zipball/fad8913b62ad25165f18ec0a82672a71364bec8b",
+                "reference": "fad8913b62ad25165f18ec0a82672a71364bec8b",
                 "shasum": ""
             },
             "require": {
@@ -1998,9 +1998,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/events-pro/tree/7.0.2.1"
+                "source": "https://github.com/the-events-calendar/events-pro/tree/7.1.0"
             },
-            "time": "2024-08-26T15:58:25+00:00"
+            "time": "2024-09-26T17:17:12+00:00"
         },
         {
             "name": "the-events-calendar/plugin-analysis",
@@ -2008,12 +2008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/plugin-analysis.git",
-                "reference": "57d18feddc2bcde909e855aa99bddfebc4777516"
+                "reference": "a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/57d18feddc2bcde909e855aa99bddfebc4777516",
-                "reference": "57d18feddc2bcde909e855aa99bddfebc4777516",
+                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f",
+                "reference": "a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2119,7 @@
                 "source": "https://github.com/the-events-calendar/plugin-analysis/tree/main",
                 "issues": "https://github.com/the-events-calendar/plugin-analysis/issues"
             },
-            "time": "2024-09-06T14:18:00+00:00"
+            "time": "2024-09-27T13:21:32+00:00"
         },
         {
             "name": "the-events-calendar/the-events-calendar",
@@ -2127,12 +2127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/the-events-calendar.git",
-                "reference": "18d6a01da0a954aa009c8221d1c58b2be3599981"
+                "reference": "c6c86cc497c14019c7027a049e6acc4b5bcc8909"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/the-events-calendar/zipball/18d6a01da0a954aa009c8221d1c58b2be3599981",
-                "reference": "18d6a01da0a954aa009c8221d1c58b2be3599981",
+                "url": "https://api.github.com/repos/the-events-calendar/the-events-calendar/zipball/c6c86cc497c14019c7027a049e6acc4b5bcc8909",
+                "reference": "c6c86cc497c14019c7027a049e6acc4b5bcc8909",
                 "shasum": ""
             },
             "require": {
@@ -2229,9 +2229,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/the-events-calendar/tree/6.6.2"
+                "source": "https://github.com/the-events-calendar/the-events-calendar/tree/6.7.0"
             },
-            "time": "2024-08-22T21:09:20+00:00"
+            "time": "2024-09-26T17:16:56+00:00"
         },
         {
             "name": "the-events-calendar/tribe-common",
@@ -2239,12 +2239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/tribe-common.git",
-                "reference": "eec9dfbc414819c29f183dd6ffecc3b1f4f7da86"
+                "reference": "3982c45a211e7a97d984b13ab994373f8f32cbf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/tribe-common/zipball/eec9dfbc414819c29f183dd6ffecc3b1f4f7da86",
-                "reference": "eec9dfbc414819c29f183dd6ffecc3b1f4f7da86",
+                "url": "https://api.github.com/repos/the-events-calendar/tribe-common/zipball/3982c45a211e7a97d984b13ab994373f8f32cbf8",
+                "reference": "3982c45a211e7a97d984b13ab994373f8f32cbf8",
                 "shasum": ""
             },
             "require": {
@@ -2270,7 +2270,7 @@
                 "lucatume/function-mocker-le": "^1.0",
                 "lucatume/wp-browser": "^3.0.14",
                 "stellarwp/coding-standards": "dev-main",
-                "the-events-calendar/tec-testing-facilities": "dev-master",
+                "the-events-calendar/tec-testing-facilities": "dev-mocker",
                 "wp-cli/checksum-command": "1.0.5",
                 "wp-cli/wp-cli": ">=2.0 <3.0.0",
                 "wp-coding-standards/wpcs": "^3.0.0"
@@ -2362,26 +2362,26 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/tribe-common/tree/master"
+                "source": "https://github.com/the-events-calendar/tribe-common/tree/6.1.0"
             },
-            "time": "2024-08-28T15:20:09+00:00"
+            "time": "2024-09-26T17:15:36+00:00"
         },
         {
             "name": "woocommerce/action-scheduler",
-            "version": "3.8.1",
+            "version": "3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/action-scheduler.git",
-                "reference": "e331b534d7de10402d7545a0de50177b874c0779"
+                "reference": "2bc91d88fdbc2c07ab899cbb56b983e11e62cf69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/e331b534d7de10402d7545a0de50177b874c0779",
-                "reference": "e331b534d7de10402d7545a0de50177b874c0779",
+                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/2bc91d88fdbc2c07ab899cbb56b983e11e62cf69",
+                "reference": "2bc91d88fdbc2c07ab899cbb56b983e11e62cf69",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.5",
@@ -2405,9 +2405,9 @@
             "homepage": "https://actionscheduler.org/",
             "support": {
                 "issues": "https://github.com/woocommerce/action-scheduler/issues",
-                "source": "https://github.com/woocommerce/action-scheduler/tree/3.8.1"
+                "source": "https://github.com/woocommerce/action-scheduler/tree/3.8.2"
             },
-            "time": "2024-06-20T19:53:06+00:00"
+            "time": "2024-09-12T23:12:58+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
