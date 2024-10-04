@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSExtra.git",
-                "reference": "de3789a59ee046291bb196c03862c871a692dc75"
+                "reference": "6f99815752a5b27f0e6e751777f305cb8eb3fe66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/de3789a59ee046291bb196c03862c871a692dc75",
-                "reference": "de3789a59ee046291bb196c03862c871a692dc75",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/6f99815752a5b27f0e6e751777f305cb8eb3fe66",
+                "reference": "6f99815752a5b27f0e6e751777f305cb8eb3fe66",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-07-23T06:25:32+00:00"
+            "time": "2024-10-03T17:43:50+00:00"
         },
         {
             "name": "phpcsstandards/phpcsutils",
@@ -783,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "5ce89dad42ec5bf0a45fd244b05421c4f5c36299"
+                "reference": "d66854b3158d8e516a32d7003bfb869b50f8a87d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/5ce89dad42ec5bf0a45fd244b05421c4f5c36299",
-                "reference": "5ce89dad42ec5bf0a45fd244b05421c4f5c36299",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/d66854b3158d8e516a32d7003bfb869b50f8a87d",
+                "reference": "d66854b3158d8e516a32d7003bfb869b50f8a87d",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +864,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-09-20T09:50:45+00:00"
+            "time": "2024-10-03T04:12:48+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -1142,12 +1142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "92c8ef54357ea09d93f8efa043d7c9c0a71ae094"
+                "reference": "36d731e18a7d6ae52268b3827f5e62f266e8b84f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/92c8ef54357ea09d93f8efa043d7c9c0a71ae094",
-                "reference": "92c8ef54357ea09d93f8efa043d7c9c0a71ae094",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/36d731e18a7d6ae52268b3827f5e62f266e8b84f",
+                "reference": "36d731e18a7d6ae52268b3827f5e62f266e8b84f",
                 "shasum": ""
             },
             "require": {
@@ -1215,20 +1215,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-09-18T16:46:38+00:00"
+            "time": "2024-10-03T18:54:48+00:00"
         },
         {
             "name": "stellarwp/assets",
-            "version": "1.3.0",
+            "version": "1.3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stellarwp/assets.git",
-                "reference": "51276936d3fa31e8e69aeb9090c6eac2f66dbce1"
+                "reference": "dd6e75c8ef04296ae7970ee6a5eb103889a2823e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stellarwp/assets/zipball/51276936d3fa31e8e69aeb9090c6eac2f66dbce1",
-                "reference": "51276936d3fa31e8e69aeb9090c6eac2f66dbce1",
+                "url": "https://api.github.com/repos/stellarwp/assets/zipball/dd6e75c8ef04296ae7970ee6a5eb103889a2823e",
+                "reference": "dd6e75c8ef04296ae7970ee6a5eb103889a2823e",
                 "shasum": ""
             },
             "require-dev": {
@@ -1269,9 +1269,9 @@
             "description": "A library for managing asset registration and enqueuing in WordPress.",
             "support": {
                 "issues": "https://github.com/stellarwp/assets/issues",
-                "source": "https://github.com/stellarwp/assets/tree/1.3.0"
+                "source": "https://github.com/stellarwp/assets/tree/1.3.1"
             },
-            "time": "2024-09-27T13:13:39+00:00"
+            "time": "2024-09-28T18:20:48+00:00"
         },
         {
             "name": "stellarwp/coding-standards",
@@ -1726,12 +1726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/event-tickets.git",
-                "reference": "c4fc57087e207a426108e64724e5034ad1f0e04f"
+                "reference": "52c3fd138cf5be2a1e07fedf18e9de9d2b2ce6fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/event-tickets/zipball/c4fc57087e207a426108e64724e5034ad1f0e04f",
-                "reference": "c4fc57087e207a426108e64724e5034ad1f0e04f",
+                "url": "https://api.github.com/repos/the-events-calendar/event-tickets/zipball/52c3fd138cf5be2a1e07fedf18e9de9d2b2ce6fc",
+                "reference": "52c3fd138cf5be2a1e07fedf18e9de9d2b2ce6fc",
                 "shasum": ""
             },
             "require-dev": {
@@ -1807,9 +1807,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/event-tickets/tree/5.13.4"
+                "source": "https://github.com/the-events-calendar/event-tickets/tree/master"
             },
-            "time": "2024-09-26T17:16:39+00:00"
+            "time": "2024-09-27T19:34:13+00:00"
         },
         {
             "name": "the-events-calendar/event-tickets-plus",
@@ -1817,12 +1817,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:the-events-calendar/event-tickets-plus.git",
-                "reference": "94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa"
+                "reference": "10b529eaf56645ed409e1a9b6d8a0c53647bc76e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/event-tickets-plus/zipball/94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa",
-                "reference": "94817aa85cbeeccde23ebc5dd1e3733b9a3d9baa",
+                "url": "https://api.github.com/repos/the-events-calendar/event-tickets-plus/zipball/10b529eaf56645ed409e1a9b6d8a0c53647bc76e",
+                "reference": "10b529eaf56645ed409e1a9b6d8a0c53647bc76e",
                 "shasum": ""
             },
             "require": {
@@ -1899,9 +1899,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/event-tickets-plus/tree/6.0.4"
+                "source": "https://github.com/the-events-calendar/event-tickets-plus/tree/master"
             },
-            "time": "2024-09-26T17:18:24+00:00"
+            "time": "2024-09-27T19:04:09+00:00"
         },
         {
             "name": "the-events-calendar/events-pro",
@@ -1909,12 +1909,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:the-events-calendar/events-pro.git",
-                "reference": "fad8913b62ad25165f18ec0a82672a71364bec8b"
+                "reference": "c6229baf8d3aa0b7ebf195569b8444065c51cc28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/events-pro/zipball/fad8913b62ad25165f18ec0a82672a71364bec8b",
-                "reference": "fad8913b62ad25165f18ec0a82672a71364bec8b",
+                "url": "https://api.github.com/repos/the-events-calendar/events-pro/zipball/c6229baf8d3aa0b7ebf195569b8444065c51cc28",
+                "reference": "c6229baf8d3aa0b7ebf195569b8444065c51cc28",
                 "shasum": ""
             },
             "require": {
@@ -1998,9 +1998,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/events-pro/tree/7.1.0"
+                "source": "https://github.com/the-events-calendar/events-pro/tree/master"
             },
-            "time": "2024-09-26T17:17:12+00:00"
+            "time": "2024-10-01T17:57:05+00:00"
         },
         {
             "name": "the-events-calendar/plugin-analysis",
@@ -2008,12 +2008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/plugin-analysis.git",
-                "reference": "a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f"
+                "reference": "6ec88425c46c8d14e71fa233848b8f964715cd7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f",
-                "reference": "a8d6df29ab88c75adbc35c2e9ac21dd53a7a589f",
+                "url": "https://api.github.com/repos/the-events-calendar/plugin-analysis/zipball/6ec88425c46c8d14e71fa233848b8f964715cd7e",
+                "reference": "6ec88425c46c8d14e71fa233848b8f964715cd7e",
                 "shasum": ""
             },
             "require": {
@@ -2097,7 +2097,8 @@
                 ],
                 "strauss": [
                     "test -f ./bin/strauss.phar || curl -o bin/strauss.phar -L -C - https://github.com/BrianHenryIE/strauss/releases/download/0.13.0/strauss.phar",
-                    "@php bin/strauss.phar"
+                    "@php bin/strauss.phar",
+                    "composer dump-autoload"
                 ],
                 "post-install-cmd": [
                     "@strauss"
@@ -2119,7 +2120,7 @@
                 "source": "https://github.com/the-events-calendar/plugin-analysis/tree/main",
                 "issues": "https://github.com/the-events-calendar/plugin-analysis/issues"
             },
-            "time": "2024-09-27T13:21:32+00:00"
+            "time": "2024-10-04T10:00:39+00:00"
         },
         {
             "name": "the-events-calendar/the-events-calendar",
@@ -2127,12 +2128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/the-events-calendar.git",
-                "reference": "c6c86cc497c14019c7027a049e6acc4b5bcc8909"
+                "reference": "c792d2f8a24f520c01dbfbb934b21b5f6e3e9ff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/the-events-calendar/zipball/c6c86cc497c14019c7027a049e6acc4b5bcc8909",
-                "reference": "c6c86cc497c14019c7027a049e6acc4b5bcc8909",
+                "url": "https://api.github.com/repos/the-events-calendar/the-events-calendar/zipball/c792d2f8a24f520c01dbfbb934b21b5f6e3e9ff4",
+                "reference": "c792d2f8a24f520c01dbfbb934b21b5f6e3e9ff4",
                 "shasum": ""
             },
             "require": {
@@ -2229,9 +2230,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/the-events-calendar/tree/6.7.0"
+                "source": "https://github.com/the-events-calendar/the-events-calendar/tree/master"
             },
-            "time": "2024-09-26T17:16:56+00:00"
+            "time": "2024-09-27T19:03:23+00:00"
         },
         {
             "name": "the-events-calendar/tribe-common",
@@ -2239,12 +2240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-events-calendar/tribe-common.git",
-                "reference": "3982c45a211e7a97d984b13ab994373f8f32cbf8"
+                "reference": "2c3edc638575fe3b18bda366dde9b302900d89e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-events-calendar/tribe-common/zipball/3982c45a211e7a97d984b13ab994373f8f32cbf8",
-                "reference": "3982c45a211e7a97d984b13ab994373f8f32cbf8",
+                "url": "https://api.github.com/repos/the-events-calendar/tribe-common/zipball/2c3edc638575fe3b18bda366dde9b302900d89e3",
+                "reference": "2c3edc638575fe3b18bda366dde9b302900d89e3",
                 "shasum": ""
             },
             "require": {
@@ -2266,11 +2267,12 @@
                 "bordoni/phpass": "0.3.5",
                 "codeception/codeception": "^2.5.5",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+                "fakerphp/faker": "^1.23",
                 "lucatume/codeception-snapshot-assertions": "^0.2.4",
                 "lucatume/function-mocker-le": "^1.0",
                 "lucatume/wp-browser": "^3.0.14",
                 "stellarwp/coding-standards": "dev-main",
-                "the-events-calendar/tec-testing-facilities": "dev-mocker",
+                "the-events-calendar/tec-testing-facilities": "dev-master",
                 "wp-cli/checksum-command": "1.0.5",
                 "wp-cli/wp-cli": ">=2.0 <3.0.0",
                 "wp-coding-standards/wpcs": "^3.0.0"
@@ -2294,10 +2296,14 @@
                         "monolog/monolog",
                         "firebase/php-jwt",
                         "psr/container",
-                        "stellarwp/assets"
+                        "stellarwp/assets",
+                        "fakerphp/faker"
                     ],
                     "exclude_from_prefix": {
-                        "file_patterns": []
+                        "file_patterns": [],
+                        "namespaces": [
+                            "Faker"
+                        ]
                     },
                     "delete_vendor_files": true,
                     "include_modified_date": false,
@@ -2341,7 +2347,7 @@
             },
             "scripts": {
                 "strauss": [
-                    "test -f ./bin/strauss.phar || curl -o bin/strauss.phar -L -C - https://github.com/BrianHenryIE/strauss/releases/download/0.13.0/strauss.phar",
+                    "test -f ./bin/strauss.phar || curl -o bin/strauss.phar -L -C - https://github.com/BrianHenryIE/strauss/releases/download/0.19.2/strauss.phar",
                     "vendor/stellarwp/installer/bin/set-domain domain=tribe-common",
                     "@php bin/strauss.phar"
                 ],
@@ -2362,9 +2368,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/the-events-calendar/tribe-common/tree/6.1.0"
+                "source": "https://github.com/the-events-calendar/tribe-common/tree/master"
             },
-            "time": "2024-09-26T17:15:36+00:00"
+            "time": "2024-10-03T16:07:59+00:00"
         },
         {
             "name": "woocommerce/action-scheduler",
